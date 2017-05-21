@@ -1,0 +1,3 @@
+OS - Windows 10
+CPU - Intel Core i5-7200U CPU 2.50GHz / 2.71GHz
+RAM - 8GB
