@@ -1,12 +1,12 @@
-<?php
-$atai = '‚¢';
+ï»¿<?php
+$atai = 'ã„';
 
 switch ($atai) {
   case 'A':
-  echo '‰pŒê';
+  echo 'è‹±èªž';
     break;
-  case '‚ ':
-  echo '“ú–{Œê';
+  case 'ã‚':
+  echo 'æ—¥æœ¬èªž';
   break;
 } 
 ?>
