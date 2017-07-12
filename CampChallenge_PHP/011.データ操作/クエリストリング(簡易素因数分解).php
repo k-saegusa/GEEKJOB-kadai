@@ -1,4 +1,4 @@
-﻿<html>
+<html>
   <head>
     <meta charset="utf-8">
     <title>テスト</title>
@@ -17,16 +17,21 @@
 foreach($_GET as $name => $value){
   $$name = $value;
 }
-
 $a= array(2,3,5,7);
-
 echo '元の値：'.$atai."<br>".'一桁の素因数：';
-
+if($atai==1){
+  echo '1は素数に含まれない。';
+}
 foreach($a as $value) {
   while ($atai%$value==0){
     $atai=$atai/$value;
-  }
-  echo $value."\n";
+    echo $value."\n";
 }
-echo "<br>".'余った値：'.$atai;
+}
+if($atai==1){
+  echo "<br>".'余った値：なし';
+}else{
+  echo "<br>".'余った値：'.$atai;
+}
+
 ?>
